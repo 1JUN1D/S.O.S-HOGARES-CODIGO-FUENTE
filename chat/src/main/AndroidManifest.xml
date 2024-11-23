@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application>
+        <activity
+            android:name=".ChatList2Activity"
+            android:exported="false"
+            android:label="@string/title_activity_chat_list2"
+            android:theme="@style/Theme.SOS" />
+        <activity
+            android:name=".Chat2Activity"
+            android:exported="false"
+            android:label="@string/title_activity_chat2"
+            android:theme="@style/Theme.SOS" />
+        <activity
+            android:name=".ChatActivity"
+            android:exported="false"
+            android:label="@string/title_activity_chat"
+            android:theme="@style/Theme.SOS" />
+        <activity
+            android:name=".ChatListActivity"
+            android:exported="false"
+            android:label="@string/title_activity_chat_list"
+            android:theme="@style/Theme.SOS" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:label="@string/title_activity_main"
+            android:theme="@style/Theme.SOS" />
+    </application>
+
+</manifest>

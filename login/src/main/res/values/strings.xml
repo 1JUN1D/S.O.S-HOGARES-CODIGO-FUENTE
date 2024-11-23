@@ -1,0 +1,7 @@
+<resources>
+    <string name="title_activity_aut">AutActivity</string>
+    <string name="com_auth0_scheme">app</string>
+    <string name="com_auth0_domain">dev-s30qk1z7tdznthon.us.auth0.com</string>
+    <string name="com_auth0_client_id">wE6Wh4QdN9T4H3rf3CcquLuxHnBxLDvX</string>
+    <string name="title_activity_inicio">InicioActivity</string>
+</resources>

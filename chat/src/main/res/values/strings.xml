@@ -1,0 +1,7 @@
+<resources>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_chat_list">ChatListActivity</string>
+    <string name="title_activity_chat">ChatActivity</string>
+    <string name="title_activity_chat2">Chat2Activity</string>
+    <string name="title_activity_chat_list2">ChatList2Activity</string>
+</resources>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_perfil_usuario">PerfilUsuarioActivity</string>
+    <string name="title_activity_perfil_prestador">PerfilPrestadorActivity</string>
+    <string name="title_activity_editar_foto">EditarFotoActivity</string>
+    <string name="title_activity_editar_foto_pres">EditarFotoPresActivity</string>
+    <string name="title_activity_editar_nombre">EditarNombreActivity</string>
+</resources>

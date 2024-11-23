@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application>
+        <activity
+            android:name="com.uv.mapa_usuario.ConfirmacionActivity"
+            android:exported="false"
+            android:label="@string/title_activity_confirmacion"
+            android:theme="@style/Theme.SOS" />
+        <activity
+            android:name=".DocumentoActivity"
+            android:exported="false"
+            android:label="@string/title_activity_documento"
+            android:theme="@style/Theme.SOS" />
+        <activity
+            android:name=".HojaActivity"
+            android:exported="false"
+            android:label="@string/title_activity_hoja"
+            android:theme="@style/Theme.SOS" />
+        <activity
+            android:name=".TarifasActivity"
+            android:exported="false"
+            android:label="@string/title_activity_tarifas"
+            android:theme="@style/Theme.SOS" />
+        <activity
+            android:name=".RegistroActivity"
+            android:exported="false"
+            android:label="@string/title_activity_registro"
+            android:theme="@style/Theme.SOS" />
+    </application>
+
+</manifest>

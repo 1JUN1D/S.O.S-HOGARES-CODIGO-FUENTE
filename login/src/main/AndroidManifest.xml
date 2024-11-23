@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application>
+        <activity
+            android:name=".InicioActivity"
+            android:exported="false"
+            android:label="@string/title_activity_inicio"
+            android:theme="@style/Theme.SOS" />
+        <activity
+            android:name=".AutActivity"
+            android:exported="false"
+            android:label="@string/title_activity_aut"
+            android:theme="@style/Theme.AppName" />
+        <activity
+            android:name=".AutSign"
+            android:exported="false"
+            android:label="@string/title_activity_aut"
+            android:theme="@style/Theme.AppName" />
+        <activity
+            android:name=".AuthSignPres"
+            android:exported="false"
+            android:label="@string/title_activity_aut"
+            android:theme="@style/Theme.AppName" />
+    </application>
+
+</manifest>

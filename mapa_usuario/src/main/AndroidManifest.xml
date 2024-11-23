@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:label="@string/title_activity_main"
+            android:theme="@style/Theme.SOS" />
+        <activity
+            android:name=".PerfilActivity"
+            android:exported="false"
+            android:label="@string/title_activity_perfil"
+            android:theme="@style/Theme.SOS" />
+        <activity
+            android:name=".UbicacionActivity"
+            android:exported="false"
+            android:label="@string/title_activity_ubicacion"
+            android:theme="@style/Theme.SOS" />
+        <activity
+            android:name=".RutaActivity"
+            android:exported="false"
+            android:label="@string/title_activity_ruta"
+            android:theme="@style/Theme.SOS" />
+        <activity
+            android:name=".PedidoElectricistaActivity"
+            android:exported="false"
+            android:label="@string/title_activity_pedido_electrodomestico"
+            android:theme="@style/Theme.SOS" />
+        <activity
+            android:name=".PedidoPinturaActivity"
+            android:exported="false"
+            android:label="@string/title_activity_pedido_pintura"
+            android:theme="@style/Theme.SOS" />
+        <activity
+            android:name=".PedidoLimpiezaActivity"
+            android:exported="false"
+            android:label="@string/title_activity_pedido_limpieza"
+            android:theme="@style/Theme.SOS" />
+        <activity
+            android:name=".PagoActivity"
+            android:exported="false"
+            android:label="@string/title_activity_pago"
+            android:theme="@style/Theme.SOS" />
+        <activity
+            android:name=".Prueba3Activity"
+            android:exported="false"
+            android:label="@string/title_activity_prueba3"
+            android:theme="@style/Theme.SOS" />
+        <activity
+            android:name=".PedidoCerrajeroActivity"
+            android:exported="false"
+            android:label="@string/title_activity_pedido_cerrajero"
+            android:theme="@style/Theme.SOS" />
+        <activity
+            android:name=".PruebaActivity"
+            android:exported="false"
+            android:label="@string/title_activity_prueba"
+            android:theme="@style/Theme.SOS" />
+        <activity
+            android:name=".MapaUsuarioActivity"
+            android:exported="false"
+            android:label="@string/title_activity_mapa_usuario"
+            android:theme="@style/Theme.SOS" />
+        <activity
+            android:name=".MapaPrestadorActivity"
+            android:exported="false"
+            android:label="MapaPrestadorActivity"
+            android:theme="@style/Theme.SOS" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="${MAPS_API_KEY}" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+    </application>
+
+</manifest>

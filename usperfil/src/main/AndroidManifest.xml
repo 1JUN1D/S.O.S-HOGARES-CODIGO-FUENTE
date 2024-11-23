@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application>
+        <activity
+            android:name=".EditarNombreActivity"
+            android:exported="false"
+            android:label="@string/title_activity_editar_nombre"
+            android:theme="@style/Theme.SOS" />
+        <activity
+            android:name=".EditarFotoPresActivity"
+            android:exported="false"
+            android:label="@string/title_activity_editar_foto_pres"
+            android:theme="@style/Theme.SOS" />
+        <activity
+            android:name=".EditarFotoActivity"
+            android:exported="false"
+            android:label="@string/title_activity_editar_foto"
+            android:theme="@style/Theme.SOS" />
+        <activity
+            android:name=".PerfilPrestadorActivity"
+            android:exported="false"
+            android:label="@string/title_activity_perfil_prestador"
+            android:theme="@style/Theme.SOS" />
+        <activity
+            android:name=".PerfilUsuarioActivity"
+            android:exported="false"
+            android:label="@string/title_activity_perfil_usuario"
+            android:theme="@style/Theme.SOS" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:label="@string/title_activity_main"
+            android:theme="@style/Theme.SOS" />
+    </application>
+
+</manifest>

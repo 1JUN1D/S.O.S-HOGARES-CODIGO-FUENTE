@@ -1,0 +1,16 @@
+<resources>
+    <string name="title_activity_mapa_usuario">MapaUsuarioActivity</string>
+    <string name="title_activity_prueba">PruebaActivity</string>
+    <string name="title_activity_prueba2">Prueba2Activity</string>
+    <string name="title_activity_pedido_cerrajero">PedidoCerrajeroActivity</string>
+    <string name="title_activity_prueba3">Prueba3Activity</string>
+    <string name="title_activity_pago">PagoActivity</string>
+    <string name="title_activity_limpieza">LimpiezaActivity</string>
+    <string name="title_activity_pedido_limpieza">PedidoLimpiezaActivity</string>
+    <string name="title_activity_pedido_pintura">PedidoPinturaActivity</string>
+    <string name="title_activity_pedido_electrodomestico">PedidoElectrodomesticoActivity</string>
+    <string name="title_activity_ruta">RutaActivity</string>
+    <string name="title_activity_ubicacion">UbicacionActivity</string>
+    <string name="title_activity_perfil">PerfilActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+</resources>

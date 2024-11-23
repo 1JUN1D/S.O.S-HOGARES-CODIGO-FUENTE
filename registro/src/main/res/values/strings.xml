@@ -1,0 +1,7 @@
+<resources>
+    <string name="title_activity_registro">RegistroActivity</string>
+    <string name="title_activity_tarifas">TarifasActivity</string>
+    <string name="title_activity_hoja">HojaActivity</string>
+    <string name="title_activity_documento">DocumentoActivity</string>
+    <string name="title_activity_confirmacion">ConfirmacionActivity</string>
+</resources>
